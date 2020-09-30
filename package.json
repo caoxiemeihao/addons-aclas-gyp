@@ -1,0 +1,19 @@
+{
+  "name": "addons-aclas-gyp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "草鞋没号 <308487730@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "build": "node-gyp build",
+    "clean": "node-gyp clean",
+    "configure": "node-gyp configure",
+    "rebuild": "node-gyp rebuild",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "node-addon-api": "^3.0.2",
+    "node-gyp": "^7.1.0"
+  }
+}
